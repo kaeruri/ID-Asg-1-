@@ -82,3 +82,81 @@
     color: black;
 }
 
+.signupicon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+.navbar {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    transform: translateX(-50%);
+    align-items: center;
+    font-size: 25px;
+    z-index: 1000;
+}
+
+.navlinks {
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #194d07;
+    font-family: Arial;
+    transition: 0.3s ease;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+}
+
+.navlinks a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: #194d07;
+  transition: width 0.3s ease;
+}
+
+.navlinks a:hover::after {
+  width: 100%;
+}
+
+.navlinks a.active::after {
+  width: 100%;
+}
+
+.navlogo {
+    width: 200px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 32px;
+    color: #194d07;
+}
+
+.signupbutton {
+    position: absolute;
+    right: 8%;
+    top: 5%; 
+    text-decoration: none;
+    color: #194d07;
+    font-family: Arial;
+    font-size: 20px; 
+}
+
+.signupbutton:hover {
+    text-decoration: underline;
+}
