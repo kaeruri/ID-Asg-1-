@@ -27,3 +27,25 @@
     width: 1000px;
     height: auto;
 }
+
+.symbolshomepage {
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.smallicons {
+    width: 44px;
+    height: 44px;
+}
+
+.symbolhomepage {
+    display: flex;
+    align-items: center;
+    color: #194d07;
+    font-size: 20px;
+}
