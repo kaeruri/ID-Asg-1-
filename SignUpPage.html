@@ -20,11 +20,26 @@
     <h2 class="signuppageh2">Join as an Elle’s Matcha member to enjoy excusive rewards.</h2>
     <img src="Assets/signuppageimg.jpg" alt="Matcha Making Processes" class="signuppageimg">
     <form class="signupform">
-        <input type="text" id="name" placeholder="NAME:" required class="signupitems">
-        <input type="tel" id="phone" placeholder="PHONE:" pattern="[0-9]{8}" maxlength="8" required class="signupitems">
-        <input type="email" id="email" placeholder="EMAIL:" required class="signupitems">
-        <input type="password" id="password" placeholder="PASSWORD:" required class="signupitems">
-        <input type="password" id="retypePassword" placeholder="RETYPE PASSWORD:" required class="signupitems">
+        <div class="formset">
+            <span class="formlabels">NAME*</span>
+            <input type="text" id="name" required class="signupitems">
+        </div>
+        <div class="formset">
+            <span class="formlabels">PHONE*</span>
+            <input type="tel" id="phone" pattern="[0-9]{8}" maxlength="8" required class="signupitems">
+        </div>
+        <div class="formset">
+            <span class="formlabels">EMAIL*</span>
+            <input type="email" id="email" required class="signupitems">
+        </div>
+        <div class="formset">
+            <span class="formlabels">PASSWORD*</span>
+            <input type="password" id="password" required class="signupitems">
+        </div>
+        <div class="formset">
+            <span class="formlabels">RETYPE PASSWORD*</span>
+            <input type="password" id="retypePassword" required class="signupitems">
+        </div>
         <button type="submit" class="signupformsubmit">Submit</button>
     </form>
 </body>
