@@ -177,7 +177,7 @@
 .menupageh2 {
     font-family: "Amiri", serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -220,42 +220,7 @@
     margin: 0 auto 15px;
 }
 
-.mangoimg {
-    width: 70px;
-    height: auto;    
-}
-
-.taroimg {
-    width: 70px;
-    height: auto;    
-}
-
-.latteimg {
-    width: 140px;
-    height: auto;    
-}
-
-.strawberryimg {
+.img {
     width: 100px;
-    height: auto;    
-}
-
-.lavaimg {
-    width: 80px;
-    height: auto;    
-}
-
-.souffleimg {
-    width: 60px;
-    height: auto;    
-}
-
-.puddingimg {
-    width: 70px;
-    height: auto;    
-}
-
-.crepeimg {
-    width: 100px;
-    height: auto;    
+    height: auto;
 }
