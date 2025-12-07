@@ -298,6 +298,14 @@
     flex-direction: column;
 }
 
+.messagebox {
+    height: 200px;
+    font-family: 'Amiri', serif;
+    border-color: #194d07;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
 .infolabels {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
