@@ -193,7 +193,7 @@
 
 .menupageh1 {
     font-family: "Amiri", serif;
-    font-size: 50px;
+    font-size: 60px;
     color: #194d07;
     position: absolute;
     font-weight: 400;
@@ -223,4 +223,100 @@
 .img {
     width: 100px;
     height: auto;
+}
+
+.contactuspageh1 {
+    font-family: "Amiri", serif;
+    font-size: 70px;
+    color: #194d07;
+    position: absolute;
+    font-weight: 300;
+    top: 8%;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.contactusdivider {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 1400px;
+  height: 2px;
+  background-color: #194d07;
+}
+
+.contactusform {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 600px;
+}
+
+.formitems {
+    border-color: #194d07;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 30px;
+    font-size: 16px;
+    padding: 8px 12px;
+    font-family: 'Amiri', serif;
+}
+
+.contactformsubmit {
+    width: 90px;
+    height: 40px;
+    background-color: #194d07;
+    color: white;
+    border-color: #194d07;
+    font-family: "Amiri", serif;
+    border-radius: 6px;
+}
+
+.contactformsubmit:hover {
+    background-color: white;
+    color: #194d07;
+    border-color: #194d07;
+    cursor: pointer;
+}
+
+.contactinfo {
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.contactinfoitems {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infolabels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #194d07;
+    font-weight: 600;
+}
+
+.powderimg{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 24%;
+}
+
+.whiskimg{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

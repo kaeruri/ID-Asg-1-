@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="js/script.js"></script>
     <link rel="icon" href="Icedmatchalatte.png" type="png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&display=swap" />
 </head>
 
 <body class="bodycontactuspage">
@@ -25,4 +27,35 @@
     </nav>
     <a href="SignUpPage.html" class="signupbutton">Sign Up</a>
     <img src="Assets/signupicon.png" alt="Sign Up Icon" class="signupicon">
+    <h1 class="contactuspageh1">Contact Us</h1>
+    <div class="contactusdivider"></div>
+    <form class="contactusform">
+        <input type="text" id="name" placeholder="NAME:" required class="formitems">
+        <input type="tel" id="phone" placeholder="PHONE:" pattern="[0-9]{8}" maxlength="8" required class="formitems">
+        <input type="email" id="email" placeholder="EMAIL:" required class="formitems">
+        <input type="password" id="password" placeholder="PASSWORD:" required class="formitems">
+        <input type="password" id="retypePassword" placeholder="RETYPE PASSWORD:" required class="formitems">
+        <textarea rows="6" placeholder="Message..." required></textarea>
+        <button type="submit" class="contactformsubmit">Submit</button>
+    </form>
+    <div class="contactinfo">
+        <div class="contactinfoitems">
+            <div class="infolabels">E M A I L</div>
+            <div class="contactusinfo">LIKAELLECHUA@GMAIL.COM</div>
+        </div>
+        <div class="contactinfoitems">
+            <div class="infolabels">P H O N E</div>
+            <div class="contactusinfo">+6583518231</div>
+        </div>
+        <div class="contactinfoitems">
+            <div class="infolabels">A D D R E S S</div>
+            <div class="contactusinfo">123 NGEE ANN POLYTECHNIC, SINGAPORE 567890</div>
+        </div>
+        <div class="contactinfoitems">
+            <div class="infolabels">S O C I A L S</div>
+            <div class="contactusinfo">@Elle'sMatchaCafe</div>
+        </div>
+    </div>
+    <img src="Assets/matchapowderswipe.png" class="powderimg" alt="matchapowderswipe">
+    <img src="Assets/matchawhiskcup.png" class="whiskimg" alt="matchawhisk">
 </body>
