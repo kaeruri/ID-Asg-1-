@@ -420,11 +420,54 @@
 }
 
 @media (max-width: 480px) {
-    .navlinks {
-        display: none;
-    }
 
-    .bodyhomepage {
+.navbar {
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    transform: translateX(-50%);
+    align-items: center;
+    z-index: 1000;
+}
+    
+.navlinks {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #194d07;
+    font-family: Arial;
+    transition: 0.3s ease;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.navlinks a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: #194d07;
+  transition: width 0.3s ease;
+}
+
+.navlinks a:hover::after {
+  width: 100%;
+}
+
+.navlinks a.active::after {
+  width: 100%;
+}
+
+.bodyhomepage {
     position: relative;
     min-height: 100vh; 
     margin: 0;
@@ -460,7 +503,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;  
-    height: 940px;
+    height: 955px;
 }
 
 .symbolshomepage {
@@ -521,28 +564,22 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    right: 4%;
+    right: 6%;
     top: 4%;
 }
 
 .navlogo {
-    width: 180px;
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    font-size: 32px;
-    color: #194d07;
-    z-index: 1000;
+    display: none;
 }
 
 .signupbutton {
     position: absolute;
-    right: 15%;
+    right: 16%;
     top: 5%; 
     text-decoration: none;
     color: #194d07;
     font-family: Arial;
-    font-size: 15px; 
+    font-size: 14px; 
 }
 
 .signupbutton:hover {
@@ -685,6 +722,7 @@
     flex-direction: column;
     gap: 40px 20px;
     transform: translateX(50%);
+    padding-bottom: 20px;
 }
 
 .contactinfoitems {
@@ -719,6 +757,90 @@
 
 .whiskimg{
     display: none;
+}
+
+.homebutton {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.signuppageimg {
+    display: none;
+}
+
+
+.signuppageh1 {
+    font-family: "Amiri", serif;
+    font-size: 50px;
+    color: #194d07;
+    position: absolute;
+    font-weight: 800;
+    top: 8%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.signuppageh2 {
+    font-family: "Amiri", serif;
+    font-size: 18px;
+    color: #194d07;
+    position: absolute;
+    font-weight: 400;
+    top: 19%;
+    left: 10%;
+    max-width: 350px;
+    width: 100%;
+}
+
+.signupform {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.signupitems {
+    border-color: #194d07;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 40px;
+    width: 300px;
+}
+
+.formlabels {
+    font-family: "Amiri", serif;
+    font-size: 16px;
+    color: #194d07;
+    font-weight: 400;
+}
+
+.signupformsubmit {
+    width: 100px;
+    height: 40px;
+    background-color: #194d07;
+    color: white;
+    border-color: #194d07;
+    font-family: "Amiri", serif;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+.signupformsubmit:hover {
+    background-color: white;
+    color: #194d07;
+    border-color: #194d07;
+    cursor: pointer;
 }
 
 }
