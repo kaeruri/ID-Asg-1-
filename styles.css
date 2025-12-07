@@ -418,3 +418,127 @@
     border-color: #194d07;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .navlinks {
+        display: none;
+    }
+
+    .bodyhomepage {
+    position: relative;
+    min-height: 100vh; 
+    margin: 0;
+    background: #549633;
+    background: radial-gradient(circle,rgba(84, 150, 51, 1) 0%, rgba(240, 255, 238, 1) 100%);
+}
+
+.homepageh1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    letter-spacing: 0.10em;
+    font-weight: 500;
+    transform: translate(-50%, -50%) scaleX(1.2);
+    color: #194d07;
+    display: flex;
+    text-align: center;
+}
+
+.pouringmatcha {
+    position: absolute;
+    top: -215px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: auto;
+}
+
+.symbolshomepage {
+    position: absolute;
+    top: 86%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.smallicons {
+    width: 30px;
+    height: 30px;
+}
+
+.symbolhomepage {
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 15px;
+}
+
+.homepage {
+    font-family: 'Amiri', serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: black;
+    position: absolute;
+    top: 67%;
+    left: 6%;
+    width: 250px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.viewbutton {
+    position: absolute;
+    bottom: 13%;
+    left: 6%;
+    background-color: black;
+    color: white;
+    padding: 6px 28px;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+    transition: 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.viewbutton:hover {
+    background-color: white;
+    color: black;
+}
+
+.signupicon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+.navlogo {
+    width: 180px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 32px;
+    color: #194d07;
+    z-index: 1000;
+}
+
+.signupbutton {
+    position: absolute;
+    right: 15%;
+    top: 5%; 
+    text-decoration: none;
+    color: #194d07;
+    font-family: Arial;
+    font-size: 15px; 
+}
+
+.signupbutton:hover {
+    text-decoration: underline;
+}
+}
