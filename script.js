@@ -1,9 +1,30 @@
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-    var password = document.getElementById("password").value;
-    var retype = document.getElementById("retypePassword").value;
+const form = document.querySelector('.contactusform');
+const password = document.getElementById('password');
+const retypePassword = document.getElementById('retypePassword');
 
-    if (password !== retype) {
-        event.preventDefault(); 
-        alert("Please retype the same password");
+const message = document.createElement('p');
+message.style.color = 'red';
+form.appendChild(message);
+
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault(); 
+
+    message.textContent = '';
+
+    
+    if (password.value !== retypePassword.value) {
+        message.textContent = "Pleae retype the same password";
+        return; 
     }
+
+    
+    if (password.value.length < 6) {
+        message.textContent = "Password must be at least 6 characters long";
+        return;
+    }
+
+    
+    message.style.color = 'green';
+    message.textContent = "Form submitted successfully :)";
 });

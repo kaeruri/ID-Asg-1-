@@ -197,7 +197,7 @@
     color: #194d07;
     position: absolute;
     font-weight: 400;
-    top: 11%;
+    top: 10%;
     left: 10%;
 }
 
@@ -303,6 +303,10 @@
     font-size: 16px;
     color: #194d07;
     font-weight: 600;
+}
+
+.contactusinfo {
+    font-family: "Arimo", sans-serif;
 }
 
 .powderimg{
