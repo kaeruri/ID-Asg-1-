@@ -334,11 +334,11 @@
 }
 
 .homebutton {
-    width: 100px;
-    height: auto;
+    width: 60px;
+    height: 50px;
     position: absolute;
     top: 2%;
-    right: 2%;
+    right: 1%;
     transition: 0.3s ease;
     z-index: 1000;
 }
