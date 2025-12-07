@@ -8,14 +8,14 @@
 
 .homepageh1 {
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "DM Serif Display", serif;
     font-size: 95px;
     letter-spacing: 0.10em;
     font-weight: 500;
-    transform: translate(-50%, -50%) scaleX(1.1);
+    transform: translate(-50%, -50%) scaleX(1.2);
     color: #194d07;
 }
 
