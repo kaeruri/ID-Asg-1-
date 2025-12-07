@@ -508,7 +508,7 @@
 
 .symbolshomepage {
     position: absolute;
-    top: 86%;
+    top: 91%;
     right: 10%;
     transform: translateY(-50%);
     display: flex;
@@ -534,7 +534,7 @@
     line-height: 1.7;
     color: black;
     position: absolute;
-    top: 67%;
+    top: 69%;
     left: 6%;
     width: 250px;
     font-weight: 200;
@@ -543,7 +543,7 @@
 
 .viewbutton {
     position: absolute;
-    bottom: 13%;
+    bottom: 11%;
     left: 6%;
     background-color: black;
     color: white;
