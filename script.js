@@ -1,4 +1,4 @@
-const form = document.querySelector('.contactusform');
+const form = document.querySelector('.signupform');
 const password = document.getElementById('password');
 const retypePassword = document.getElementById('retypePassword');
 
@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e) {
 
     
     if (password.value !== retypePassword.value) {
-        message.textContent = "Pleae retype the same password";
+        message.textContent = "Pleae retype the same password!";
         return; 
     }
 
