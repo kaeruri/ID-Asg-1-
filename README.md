@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Elle's Matcha F&B Company Website
 
 ## Project Overview
@@ -56,3 +57,6 @@ The design prioritized an efficient, enjoyable, and visually appealing user expe
 - **Sign-Up Page**: Test button functionality and return icon
 - **Contact Form**: Validate name, phone, email fields; test incorrect format blocking
 - **Sign-Up Form**: Verify required fields, password matching, and success/error alerts
+=======
+# InteractiveevelopmentASG1
+>>>>>>> 3718584dce1b4adcd227c5359eebea86c5b88541
