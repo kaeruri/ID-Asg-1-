@@ -15,6 +15,8 @@ The design prioritized an efficient, enjoyable, and visually appealing user expe
 - **Visual Identity**: Dark green primary color reflecting matcha quality, with coordinated colors, text, images, and gradients for a luxurious feel
 - **Typography & Layout**: Three complementary fonts and meticulous element positioning inspired by high-end café websites
 
+Wireframes: https://www.figma.com/site/dNtYJuoSgAR0voYY8TRYjv/InteractiveDevelopment_S10273207E_LikaelleChuaYingZhi_Assg1_wireframe?node-id=0-1&t=iAnKRjmx4a43bLmM-1
+
 ## Page Components
 
 - **Navigation Bar**: Sleek design with smooth transition underlines and profile icon
@@ -47,6 +49,23 @@ The design prioritized an efficient, enjoyable, and visually appealing user expe
 
 ## Technologies Used
 
+Mango Matcha: https://www.pinterest.com/pin/51369251996190067/
+Taro Matcha: https://www.pinterest.com/pin/69524387996992712/
+Matcha Latte: https://www.pinterest.com/pin/104145810134177039/
+Strawberry Matcha: https://www.pinterest.com/pin/26247610323960661/
+The drinks looked aesthetically pleasing and fit well together in the menu.
+
+Lava Cake: https://www.pinterest.com/pin/6262886977041175/
+Pancake: https://www.pinterest.com/pin/122934264821770213/
+Pudding: https://www.pinterest.com/pin/605945324902330430/
+Crepe Cake: https://www.pinterest.com/pin/98305204361624581/
+The food looked appetising and fit the matcha vibe, also fit the aesthetic of the drinks.
+
+Pouring Matcha: https://www.pinterest.com/pin/422281211830828/
+Whisk: https://www.pinterest.com/pin/19632948394518629/
+Powder: https://www.pinterest.com/pin/310537336830701212/
+Gave a realism "3D" feel, looked candid and aesthetic.
+
 - **HTML5 & CSS3**: Structure, styling, and responsive layout
 - **JavaScript**: Interactivity, form validation, and animations
 - **Images & Media**: Pinterest-sourced assets
@@ -56,7 +75,12 @@ The design prioritized an efficient, enjoyable, and visually appealing user expe
 - **Navigation**: Verify all page links work correctly
 - **Sign-Up Page**: Test button functionality and return icon
 - **Contact Form**: Validate name, phone, email fields; test incorrect format blocking
+- **View button**: Test button link works correctly
 - **Sign-Up Form**: Verify required fields, password matching, and success/error alerts
+
+## Credits
+**Media**: The photos used in this site were all from pinterest, links as referenced below (could not find a few of them)
+**Acknowledgements**: I received inspiration for this project from different various pictures i scrolled through the matcha category on pinterest.
 =======
 # InteractiveevelopmentASG1
 >>>>>>> 3718584dce1b4adcd227c5359eebea86c5b88541
