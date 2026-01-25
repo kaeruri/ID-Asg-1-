@@ -597,7 +597,7 @@
     position: absolute;
     color: #194d07;
     padding: 0 20px;
-    top: 20%; 
+    top: 22%; 
     left: 0;  
 }
 
@@ -624,14 +624,14 @@
     color: #194d07;
     position: absolute;
     font-weight: 400;
-    top: 7%;
+    top: 9%;
     left: 8%;
 }
 
 
 .menudivider {
   position: absolute;
-  top: 21%;
+  top: 23%;
   left: 8%;
   width: 350px;
   height: 1px;
@@ -660,14 +660,14 @@
     color: #194d07;
     position: absolute;
     font-weight: 300;
-    top: 6%;
+    top: 8%;
     left: 65%;
     transform: translateX(-50%);
     width: 280px;
 }
 .contactusdivider {
   position: absolute;
-  top: 20%;
+  top: 23%;
   left: 8%;
   width: 350px;
   height: 1px;
@@ -676,7 +676,7 @@
 
 .contactusform {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 15%;
     display: flex;
     flex-direction: column;
@@ -713,7 +713,7 @@
 
 .contactinfo {
     position: absolute;
-    top: 110%;
+    top: 114%;
     right: 32%;
     max-width: 350px;
     width: 100%;
